@@ -1,4 +1,12 @@
-### Hi there 👋
+### HIT-OpenCS
+
+>我希望只要是前人走过的弯路，后人就不必再走。
+
+HIT-OpenCS是致力于实现学习资源公开共享，打破信息壁垒的开源项目。如果你有一定的计算机基础并且对于网站布局/模式有更好的建议，欢迎直接提交PR。
+
+投稿，建议，侵权投诉等关于HIT-OpenCS项目的任何问题，请发邮件至hitopencs@outlook.com
+
+投稿请注明科目和资料分类，如果你愿意在投稿时署名，我会把你添加到网站主页的贡献者名单里。
 
 <!--
 **HITOpenCS/HITOpenCS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
