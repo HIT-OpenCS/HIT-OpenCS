@@ -1,0 +1,45 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+
+    - name: Use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+
+
+    - name: do autosidebar
+      run: |
+       cd ./docs
+       node ./auto.js
+       ls
+       
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: GITHUB_GENERATOR
+        message: "AUTO GENERATE sidebar"
+        add: "*.md"
+      env:
+        GITHUB_TOKEN: ${{ secrets.autosidebar }}
+        CI: true
+          
+    - name: upload   files to OSS
+      uses:   fangbinwei/aliyun-oss-website-action@v1
+      with:
+        accessKeyId:   ${{ secrets.AKID }}
+        accessKeySecret: ${{ secrets.AKS }}
+        bucket:   opencs
+        endpoint:   https://oss-cn-hongkong.aliyuncs.com
+        folder:   ./docs
