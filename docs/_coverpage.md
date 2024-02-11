@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-# **HIT-OpenCS** <small>v0.1</small>
+# **HIT-OpenCS** <small>v1.0</small>
 
 ## 更适合哈工大同学的资料共享平台
 
