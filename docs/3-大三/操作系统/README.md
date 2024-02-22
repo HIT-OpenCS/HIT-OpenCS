@@ -16,6 +16,8 @@
 
 #### **笔记资料**
 
+[2023春-关于几种调度方式的整理.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大三/操作系统/materials/操作系统-2023春-关于几种调度方式的整理.pdf)
+
 #### **电子书**
 
 #### **课上ppt**

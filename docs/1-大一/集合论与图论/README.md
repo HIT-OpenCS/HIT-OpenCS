@@ -58,6 +58,10 @@
 
 #### **电子书**
 
+[教科书习题图论答案(网传仅参考).zip](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大一/集合论与图论/books/离散数学-教科书习题图论答案(网传仅参考).zip)
+
+[教科书习题集合论答案（网传仅参考）.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大一/集合论与图论/books/离散数学-教科书习题集合论答案（网传仅参考）.pdf)
+
 [introduction-to-algorithms(3rd-edition).pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大一/集合论与图论/books/introduction-to-algorithms(3rd-edition).pdf)
 
 #### **课上ppt**
