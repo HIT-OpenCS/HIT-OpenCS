@@ -78,3 +78,8 @@ tip：2023秋有4个人拿到了Bonus
 - [4] : David B. Kirk, Wen-mei W. Hwu. Programming Massively Parallel Processors: A Hands-on Approach (2 edition) ,2013. (中⽂版:《CUDA⼤规模并⾏处理器编程实战》, 清华⼤学出版社, 2013.12)
 - [5] Shane Cook, CUDA Programming -- A Developer‘s Guide to Parallel Computing with GPUs, 2013. (中⽂版: 苏统华等译,《CUDA并⾏程序设计：GPU编程指南》, 机械⼯业出版社, 2014.1 )
 - [6] Nicholas Wilt, The CUDA Handbook -- A Comprehensive Guide to GPU Programming, 2013.(中⽂版:苏统华等译,《CUDA专家⼿册：GPU编程权威指南》, 机械⼯业出版社, 2014.8 )
+
+## 资料下载
+
+![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/选修课程/GPU计算/file.md ":include")
+

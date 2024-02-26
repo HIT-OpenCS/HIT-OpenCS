@@ -60,20 +60,5 @@
 - [3]Bishop C .Pattern Recognition and Machine Learning. 2006.
 
 ## 资料下载
-<!-- tabs:start -->
 
-#### **试题**
-
-#### **笔记资料**
-
-[2023秋-复习手册.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大三/模式识别与机器学习/materials/模式识别与机器学习A-2023秋-复习手册.pdf)
-
-[2023秋-复习讲座.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大三/模式识别与机器学习/materials/模式识别与机器学习A-2023秋-复习讲座.pdf)
-
-#### **电子书**
-
-#### **课上ppt**
-
-#### **实验相关**
-
-<!-- tabs:end -->
+![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/人工智能/模式识别与机器学习/file.md ":include")

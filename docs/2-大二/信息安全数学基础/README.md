@@ -74,32 +74,5 @@
 - [1] 《信息安全数学基础》  贾春福等编著  机械工业出版社
 
 ## 资料下载
-<!-- tabs:start -->
 
-#### **试题**
-
-#### **笔记资料**
-
-[两种背包型的公钥密码算法的安全性分析_韩立东.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二/信息安全数学基础/materials/两种背包型的公钥密码算法的安全性分析_韩立东.pdf)
-
-[2022秋-ppt汇总.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二/信息安全数学基础/materials/信息安全数学基础-2022秋-ppt汇总.pdf)
-
-[实验指导书.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二/信息安全数学基础/materials/实验指导书.pdf)
-
-[课程大纲v202310.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二/信息安全数学基础/materials/课程大纲v202310.pdf)
-
-#### **电子书**
-
-#### **课上ppt**
-[数论.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二/信息安全数学基础/slides/slides_20230927-数论.pdf)
-
-[近世代数.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二/信息安全数学基础/slides/slides_20231016-近世代数.pdf)
-
-[slides_20231016数理逻辑.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二/信息安全数学基础/slides/slides_20231016数理逻辑.pdf)
-
-#### **实验相关**
-
-<!-- tabs:end -->
-
-
-
+![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/公共课程/信息安全数学基础/file.md ":include")

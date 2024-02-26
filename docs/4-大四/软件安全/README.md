@@ -15,18 +15,6 @@
 最后大家得分都很高。
 
 ## 资料下载
-<!-- tabs:start -->
 
-#### **试题**
 
-#### **笔记资料**
-
-[软件安全_2023秋_PPT.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大四/软件安全/materials/软件安全_2023秋_PPT.pdf)
-
-#### **电子书**
-
-#### **课上ppt**
-
-#### **实验相关**
-
-<!-- tabs:end -->
+![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/信息安全/软件安全/file.md ":include")

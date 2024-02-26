@@ -13,23 +13,7 @@
 实验40分
 课堂讨论20分
 最后是一纸开卷，还算是容易的
+
 ## 资料下载
-<!-- tabs:start -->
 
-#### **试题**
-
-#### **笔记资料**
-
-[信息内容安全_2023春_期末复习原稿.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大三/信息内容安全/materials/信息内容安全_2023春_期末复习原稿.pdf)
-
-[信息内容安全_2023春_期末复习原稿勘误.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大三/信息内容安全/materials/信息内容安全_2023春_期末复习原稿勘误.pdf)
-
-#### **电子书**
-
-#### **课上ppt**
-
-#### **实验相关**
-
-<!-- tabs:end -->
-
-
+![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/信息安全/信息内容安全/file.md ":include")

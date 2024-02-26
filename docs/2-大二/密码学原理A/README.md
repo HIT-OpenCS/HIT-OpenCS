@@ -40,21 +40,5 @@
 - [3] Introduction to Modern Cryptography Solutions Manual(习题解答), Jonathan Katz,Yehuda Lindell著, CRC PRESS
 
 ## 资料下载
-<!-- tabs:start -->
 
-#### **试题**
-
-#### **笔记资料**
-[22秋密码学原理考题(回忆手写版).pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二\密码学\materials\22秋密码学原理考题(回忆手写版).pdf)
-[大纲自用.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二\密码学\materials\大纲自用.pdf)
-[密码学作业答案与笔记.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二\密码学\materials\密码学作业答案与笔记.pdf)
-[密码学ppt题目Q&A.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二\密码学\materials\密码学ppt题目Q&A.pdf)
-[密码学ppt题目Q&A.xlsx](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二\密码学\materials\密码学ppt题目Q&A.xlsx)
-[Crypto_hw.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二\密码学\materials\Crypto_hw.pdf)
-#### **电子书**
-
-#### **课上ppt**
-
-#### **实验相关**
-[CA-密码学实验报告.pdf](https://raw.gitmirror.com/HIT-OpenCS/HIT-OpenCS-Files/main/大二\密码学\exp\CA-密码学实验报告.pdf)
-<!-- tabs:end -->
+![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/信息安全/密码学/file.md ":include")
