@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 let basepath = "./"; //解析目录路径
-let filterFile = [ "auto.js", "README.md", "_sidebar.md","_coverpage.md", "index.html", ".nojekyll", "autosidebar.js","scripts"]; //过滤文件名，使用，隔开
+let filterFile = [ "auto.js", "README.md", "_sidebar.md","_coverpage.md", "index.html", ".nojekyll","_navbar.md"]; //过滤文件名，使用，隔开
 let stopFloor = 10; //遍历层数
 let generatePath = "./_sidebar.md"; //生成文件路径
 let isFullPath = true; //是否输出完整路径
