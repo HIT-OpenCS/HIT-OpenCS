@@ -1,5 +1,4 @@
 
-
 # HIT-OpenCS
 
 受 [浙江大学相关项目](https://github.com/QSCTech/zju-icicles) 、 [清华大学相关项目](https://github.com/PKUanonym/REKCARC-TSC-UHT) 和[哈工大（深圳）相关项目](https://github.com/HITSZ-OpenCS/HITSZ-OpenCS)启发，创立了本项目。
@@ -46,8 +45,4 @@ Issue、PR、纠错、资料、选课/考试攻略，完全欢迎！来自大家
 
 ## 许可 | License
 
-由贡献者编写部分的许可如下：
-
 [CC-BY-NC-SA：署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
-
-其他部分的版权归属于其各自的作者。资料仅供参考，请自己判断其适用性。
