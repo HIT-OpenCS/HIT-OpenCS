@@ -35,4 +35,4 @@ PPT中所罗列出的内容要认真看，要着重理解是什么，以及为�
 
 ## 资料下载
 
-![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/网络空间安全/互联网基础设施安全/file.md ":include")
+![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/网络空间安全/互联网基础设施安全/file.md ":include")

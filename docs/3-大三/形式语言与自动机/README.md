@@ -11,4 +11,4 @@
 
 ## 资料下载
 
-![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/公共课程/形式语言与自动机/file.md ":include")
+![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/公共课程/形式语言与自动机/file.md ":include")

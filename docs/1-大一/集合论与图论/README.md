@@ -11,4 +11,4 @@
 
 ## 资料下载
 
-![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/大一/集合论与图论/file.md ":include")
+![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/大一/集合论与图论/file.md ":include")

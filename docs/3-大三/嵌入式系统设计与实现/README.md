@@ -11,4 +11,4 @@
 
 ## 资料下载
 
-![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/计算机科学与技术/嵌入式系统设计与实现/file.md ":include")
+![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/计算机科学与技术/嵌入式系统设计与实现/file.md ":include")

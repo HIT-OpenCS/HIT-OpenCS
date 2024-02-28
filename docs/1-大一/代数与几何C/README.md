@@ -11,6 +11,6 @@
 
 ## 资料下载
 
-![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/大一/代数与几何C/file.md ":include")
+![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/大一/代数与几何C/file.md ":include")
 
 

@@ -11,6 +11,6 @@
 
 ## 资料下载
 
-![](https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/大一/微积分B/file.md ":include")
+![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/大一/微积分B/file.md ":include")
 
 
