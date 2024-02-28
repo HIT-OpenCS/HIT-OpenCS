@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link href="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/themes/vue.min.css" rel="stylesheet">
+  <link href="scripts/plugin.min.css" rel="stylesheet">
+  <link href="scripts/sidebar.min.css" rel="stylesheet">
+
+  <!-- <link rel="shortcut icon" href="https://p.sda1.dev/15/dbb826d7d44f6f9af81a17ff44567600/icon.png" type="image/x-icon"> -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+    <text y=%221em%22 font-size=%2280%22>
+      😋
+    </text>
+  </svg>">
+  <title>HIT-OpenCS</title>
+  <script async src="https://us.umami.is/script.js" data-website-id="263cb936-e46c-46ba-9854-0666cc0aa8a5"></script>
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      basePath: '/docs',
+      name: 'HIT-OpenCS',
+      nameLink: '#/README',
+      repo: 'https://github.com/HIT-OpenCS/HIT-OpenCS',
+      loadSidebar: true,
+      loadNavbar: true,
+      auto2top: true,
+      coverpage: true,
+      onlyCover: true,
+      // autoHeader: true,
+
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md',
+        '/script/(.*)': '../script/$1', // supports regexp
+      },
+      //字数统计配置
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      },
+      tabs: {
+        persist: true,      // default
+        sync: true,      // default
+        theme: 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+      search: {
+        paths: 'auto',
+        placeholder: '全局搜索',
+      },
+      customPageFooter: {
+        debug: false,                   // for debugging
+
+        showPoweredBy: true,            // should show powered by docsify at right
+        copyrightYear: '',              // show copyright year, default current year.
+        showCopyright: true,            // set to false to hide default copyright
+        copyright: undefined,           // set this to html string to use custom copyrihgt section
+        copyrightOwnerName: 'HIT-OpenCS',         // copyright owner name
+        copyrightOwnerLink: 'https://github.com/HIT-OpenCS/HIT-OpenCS',  // copyright owner link if any
+
+        useLocalStorage: true,          // build and store footer in localstorage for quick access
+      }
+    }
+
+  </script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/search.min.js"></script>
+  <script src="https://unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="scripts/docsify-sidebar-collapse.min.js"></script>
+  <script src="scripts/plugin.min.js"></script>
+
+</body>
+
+</html>

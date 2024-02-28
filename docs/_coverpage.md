@@ -5,7 +5,7 @@
 ## 更适合哈工大同学的资料共享平台
 
 [GitHub](https://github.com/HIT-OpenCS/HIT-OpenCS)
-[**我要学习!!**](#hit-opencs)
+[**我要学习!!**](/README)
 
 <!-- 背景图片 -->
 
