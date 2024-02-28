@@ -5,11 +5,66 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"> -->
   <link href="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/themes/vue.min.css" rel="stylesheet">
-  <!--目录折叠设置-->
-  <link rel="stylesheet" href="scripts/sidebar.min.css" />
-  <link rel="stylesheet" href="scripts/plugin.min.css">
+
+  <style>
+    .sidebar-nav li {
+      position: relative;
+      margin: 0;
+      cursor: pointer
+    }
+
+    .sidebar-nav ul:not(.app-sub-sidebar)>li:not(.file)::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 11px;
+      left: -12px;
+      height: 6px;
+      width: 6px;
+      border-right: 1px solid #505d6b;
+      border-bottom: 1px solid #505d6b;
+      transform: rotate(-45deg);
+      transition: transform .1s
+    }
+
+    .sidebar-nav ul:not(.app-sub-sidebar)>li.open::before {
+      transform: rotate(45deg)
+    }
+
+    .sidebar-nav ul:not(.app-sub-sidebar)>li.collapse::before {
+      transform: rotate(-45deg)
+    }
+  </style>
+  <style>
+    /*docsify-plugin-footer/plugin.css v1.2.0*/
+    #customFooter {
+      border-top: 1px solid #e5e5e5;
+      margin: auto;
+      max-width: 80%;
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+      width: 100%
+    }
+
+    #customFooter .powered-by {
+      float: right
+    }
+
+    #customFooter .copyright a {
+      padding-left: 5px
+    }
+
+    #customFooter a {
+      color: var(--primary, #42b983);
+      text-decoration: underline dotted
+    }
+
+    #customFooter a:hover {
+      color: var(--primary-dark, #2c7554);
+      text-decoration: underline
+    }
+  </style>
   <!-- <link rel="shortcut icon" href="https://p.sda1.dev/15/dbb826d7d44f6f9af81a17ff44567600/icon.png" type="image/x-icon"> -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
     <text y=%221em%22 font-size=%2280%22>
@@ -18,8 +73,9 @@
   </svg>">
   <title>HIT-OpenCS</title>
   <script async src="https://us.umami.is/script.js" data-website-id="263cb936-e46c-46ba-9854-0666cc0aa8a5"></script>
-    
+
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -67,23 +123,18 @@
     }
 
   </script>
-
-  <!--目录折叠设置-->
-
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
   <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.min.js"></script>
-
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script> -->
   <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/search.min.js"></script>
 
-  <!-- docsify-tabs (latest v1.x.x) -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script> -->
-
-  <script src="scripts/docsify-sidebar-collapse.min.js"></script>
+  <script>
+    //collapse
+    !function (e) { ("object" != typeof exports || "undefined" == typeof module) && "function" == typeof define && define.amd ? define(e) : e() }(function () { "use strict"; function e(e, n) { var t, a = (n = void 0 === n ? {} : n).insertAt; e && "undefined" != typeof document && (t = document.head || document.getElementsByTagName("head")[0], (n = document.createElement("style")).type = "text/css", "top" === a && t.firstChild ? t.insertBefore(n, t.firstChild) : t.appendChild(n), n.styleSheet ? n.styleSheet.cssText = e : n.appendChild(document.createTextNode(e))) } var t; function a(e) { e && null != t && (e = e.getBoundingClientRect().top, document.querySelector(".sidebar").scrollBy(0, e - t)) } function n() { requestAnimationFrame(function () { var e = document.querySelector(".app-sub-sidebar > .active"); if (e) for (e.parentNode.parentNode.querySelectorAll(".app-sub-sidebar").forEach(function (e) { return e.classList.remove("open") }); e.parentNode.classList.contains("app-sub-sidebar") && !e.parentNode.classList.contains("open");)e.parentNode.classList.add("open"), e = e.parentNode }) } function o(e) { t = e.target.getBoundingClientRect().top; var n = d(e.target, "LI", 2); n && (n.classList.contains("open") ? (n.classList.remove("open"), setTimeout(function () { n.classList.add("collapse") }, 0)) : (function (e) { if (e) for (e.classList.remove("open", "active"); e && "sidebar-nav" !== e.className && e.parentNode;)"LI" !== e.parentNode.tagName && "app-sub-sidebar" !== e.parentNode.className || e.parentNode.classList.remove("open"), e = e.parentNode }(s()), i(n), setTimeout(function () { n.classList.remove("collapse") }, 0)), a(n)) } function s() { var e = document.querySelector(".sidebar-nav .active"); return e || (e = d(document.querySelector('.sidebar-nav a[href="'.concat(decodeURIComponent(location.hash).replace(/ /gi, "%20"), '"]')), "LI", 2)) && e.classList.add("active"), e } function i(e) { if (e) for (e.classList.add("open", "active"); e && "sidebar-nav" !== e.className && e.parentNode;)"LI" !== e.parentNode.tagName && "app-sub-sidebar" !== e.parentNode.className || e.parentNode.classList.add("open"), e = e.parentNode } function d(e, n, t) { if (e && e.tagName === n) return e; for (var a = 0; e;) { if (t < ++a) return; if (e.parentNode.tagName === n) return e.parentNode; e = e.parentNode } } e(".sidebar-nav > ul > li ul {\n  display: none;\n}\n\n.app-sub-sidebar {\n  display: none;\n}\n\n.app-sub-sidebar.open {\n  display: block;\n}\n\n.sidebar-nav .open > ul:not(.app-sub-sidebar),\n.sidebar-nav .active:not(.collapse) > ul {\n  display: block;\n}\n\n/* 抖动 */\n.sidebar-nav li.open:not(.collapse) > ul {\n  display: block;\n}\n\n.active + ul.app-sub-sidebar {\n  display: block;\n}\n"), document.addEventListener("scroll", n); e("@media screen and (max-width: 768px) {\n  /* 移动端适配 */\n  .markdown-section {\n    max-width: none;\n    padding: 16px;\n  }\n  /* 改变原来按钮热区大小 */\n  .sidebar-toggle {\n    padding: 0 0 10px 10px;\n  }\n  /* my pin */\n  .sidebar-pin {\n    appearance: none;\n    outline: none;\n    position: fixed;\n    bottom: 0;\n    border: none;\n    width: 40px;\n    height: 40px;\n    background: transparent;\n  }\n}\n"); var r, c = "DOCSIFY_SIDEBAR_PIN_FLAG"; function l() { var e = "true" === (e = localStorage.getItem(c)); localStorage.setItem(c, !e), e ? (document.querySelector(".sidebar").style.transform = "translateX(0)", document.querySelector(".content").style.transform = "translateX(0)") : (document.querySelector(".sidebar").style.transform = "translateX(300px)", document.querySelector(".content").style.transform = "translateX(300px)") } 768 < document.documentElement.clientWidth || (localStorage.setItem(c, !1), (r = document.createElement("button")).classList.add("sidebar-pin"), r.onclick = l, document.body.append(r), window.addEventListener("load", function () { var n = document.querySelector(".content"); document.body.onclick = n.onclick = function (e) { e.target !== document.body && e.currentTarget !== n || "true" === localStorage.getItem(c) && l() } })), function () { if (window.$docsify) { for (var e = arguments.length, n = new Array(e), t = 0; t < e; t++)n[t] = arguments[t]; $docsify.plugins = n.concat($docsify.plugins || []) } else console.error("这是一个docsify插件，请先引用docsify库！") }(function (e, n) { e.doneEach(function (e, n) { var t = s(); i(t), document.querySelectorAll(".sidebar-nav li").forEach(function (e) { e.querySelector("ul:not(.app-sub-sidebar)") ? e.classList.add("folder") : e.classList.add("file") }), function n(e, t) { e && e.childNodes && e.childNodes.forEach(function (e) { e.classList && e.classList.contains("folder") && (e.classList.add("level-".concat(t)), window.$docsify && window.$docsify.sidebarDisplayLevel && "number" == typeof window.$docsify.sidebarDisplayLevel && t <= window.$docsify.sidebarDisplayLevel && e.classList.add("open"), e && 1 < e.childNodes.length && n(e.childNodes[1], t + 1)) }) }(document.querySelector(".sidebar-nav > ul"), 1), a(t), n(e) }), e.ready(function () { document.querySelector(".sidebar-nav").addEventListener("click", o) }) }) });</script>
 
   <script src="https://unpkg.com/docsify-count/dist/countable.js"></script>
-
-  <script src="scripts/plugin.min.js"></script>
+  <script>
+    //footer
+    "use strict"; const customPageFooterOptions = { debug: false, showPoweredBy: true, copyrightYear: "", showCopyright: true, copyright: undefined, copyrightOwnerName: "", copyrightOwnerLink: undefined, copyrightExtra: undefined, useLocalStorage: true }; const _storageKeyFooter = "custom-footer"; function buildFooter() { var footer = ""; if (customPageFooterOptions.showPoweredBy) { footer += '<span class="powered-by">Powered by <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>' } if (customPageFooterOptions.showCopyright && !customPageFooterOptions.copyright) { footer += '<span class="copyright">&copy; '; footer += customPageFooterOptions.copyrightYear ? customPageFooterOptions.copyrightYear : (new Date).getFullYear(); if (!customPageFooterOptions.copyrightOwnerLink) { footer += customPageFooterOptions.copyrightOwnerName + "." } else { footer += '<a href="' + customPageFooterOptions.copyrightOwnerLink + '" target="_blank">' + customPageFooterOptions.copyrightOwnerName + "</a>." } if (customPageFooterOptions.copyrightExtra) { footer += '<div class="copyright-extra">'; footer += customPageFooterOptions.copyrightExtra; footer += "</div>" } footer += "</span>" } else { footer += customPageFooterOptions.copyright } var footer = '<footer id="customFooter">' + footer + "</footer>"; if (customPageFooterOptions.useLocalStorage) localStorage.setItem(_storageKeyFooter, footer); return footer } function customPageFooter(hook, vm) { hook.doneEach((function () { var _footer = document.getElementById("customFooter"); debug("_footer"); debug(_footer); if (!_footer) { var node = document.getElementById("main").parentNode; if (!node) { error("parent node not found!"); return } debug("node"); debug(node); var footer = undefined; if (customPageFooterOptions.useLocalStorage) { footer = localStorage.getItem(_storageKeyFooter); debug("footer from ls -> " + footer) } node.innerHTML += footer ? footer : buildFooter(); debug("added custom footer!") } })) } function debug(msg) { if (customPageFooterOptions.debug) console.log("[customPageFooter] log: " + msg) } function error(msg) { if (customPageFooterOptions.debug) console.error("[customPageFooter] err: " + msg) } window.$docsify.customPageFooter = Object.assign(customPageFooterOptions, window.$docsify.customPageFooter); window.$docsify.plugins = [].concat(customPageFooter, window.$docsify.plugins);
+  </script>
 </body>
 
 </html>

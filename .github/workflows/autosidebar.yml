@@ -35,11 +35,11 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.autosidebar }}
         CI: true
           
-    - name: upload   files to OSS
-      uses:   fangbinwei/aliyun-oss-website-action@v1
-      with:
-        accessKeyId:   ${{ secrets.AKID }}
-        accessKeySecret: ${{ secrets.AKS }}
-        bucket:   opencs
-        endpoint:   https://oss-cn-hongkong.aliyuncs.com
-        folder:   ./docs
+    # - name: upload   files to OSS
+    #   uses:   fangbinwei/aliyun-oss-website-action@v1
+    #   with:
+    #     accessKeyId:   ${{ secrets.AKID }}
+    #     accessKeySecret: ${{ secrets.AKS }}
+    #     bucket:   opencs
+    #     endpoint:   https://oss-cn-hongkong.aliyuncs.com
+    #     folder:   ./docs
