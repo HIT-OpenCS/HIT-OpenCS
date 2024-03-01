@@ -81,5 +81,5 @@ tip：2023秋有4个人拿到了Bonus
 
 ## 资料下载
 
-![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/选修课程/GPU计算/file.md ":include")
+![](https://gh.hitcs.cc/https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/选修课程/GPU计算/file.md ":include")
 

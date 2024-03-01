@@ -17,4 +17,4 @@
 ## 资料下载
 
 
-![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/信息安全/软件安全/file.md ":include")
+![](https://gh.hitcs.cc/https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/信息安全/软件安全/file.md ":include")

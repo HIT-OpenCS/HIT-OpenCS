@@ -61,4 +61,4 @@
 
 ## 资料下载
 
-![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/人工智能/模式识别与机器学习/file.md ":include")
+![](https://gh.hitcs.cc/https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/人工智能/模式识别与机器学习/file.md ":include")

@@ -11,5 +11,5 @@
 
 ## 资料下载
 
-![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/公共课程/算法设计与分析/file.md ":include")
+![](https://gh.hitcs.cc/https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/公共课程/算法设计与分析/file.md ":include")
 

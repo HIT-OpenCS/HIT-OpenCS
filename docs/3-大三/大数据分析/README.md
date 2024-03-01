@@ -11,4 +11,4 @@
 
 ## 资料下载
 
-![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/数据科学与大数据技术/大数据分析/file.md ":include")
+![](https://gh.hitcs.cc/https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/数据科学与大数据技术/大数据分析/file.md ":include")

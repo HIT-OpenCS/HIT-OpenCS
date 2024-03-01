@@ -11,4 +11,4 @@
 
 ## 资料下载
 
-![](https://raw.gitmirror.com/HIT-OpenCS/CS_Courses/main/计算机科学与技术/计算机体系结构/file.md ":include")
+![](https://gh.hitcs.cc/https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/计算机科学与技术/计算机体系结构/file.md ":include")
