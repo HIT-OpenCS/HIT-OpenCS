@@ -3,11 +3,14 @@
 
 受 [浙江大学相关项目](https://github.com/QSCTech/zju-icicles) 、 [清华大学相关项目](https://github.com/PKUanonym/REKCARC-TSC-UHT) 和[哈工大（深圳）相关项目](https://github.com/HITSZ-OpenCS/HITSZ-OpenCS)启发，创立了本项目。
 
-部分文件来源于[计算学部金牌讲师团](https://github.com/HIT-FC-OpenCS/CS_Courses)，由衷感谢讲师团同学们对资料收集做出的巨大贡献！
+~~部分文件来源于[计算学部金牌讲师团](https://github.com/HIT-FC-OpenCS/CS_Courses)，由衷感谢讲师团同学们对资料收集做出的巨大贡献！~~
 
-!>手机端请点击左下角的![sidebar](https://iili.io/JcrGGHu.png)图标打开目录
+!>**计算学部金牌讲师团于2024春开学初向计算学部管理层举报本项目，理由为本站引用了其相似项目中遵循[CC-BY-NC-SA：署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)的部分文件。本站计划于2024暑假期间进行重构。**
 
-!>如果你是初来乍到的工大学子，我强烈建议你阅读本项目中由黄桃同学编写的“[萌新指南](/0-萌新指南/)”部分。
+
+?>手机端请点击左下角的![sidebar](https://iili.io/JcrGGHu.png)图标打开目录
+
+?>如果你是初来乍到的工大学子，我强烈建议你阅读本项目中由黄桃同学编写的“[萌新指南](/0-萌新指南/)”部分。
 
 ## 前言 | Preface
 
