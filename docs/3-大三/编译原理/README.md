@@ -10,18 +10,7 @@
 ## 学习建议
 
 ## 资料下载
-<!-- tabs:start -->
 
-#### **试题**
-
-#### **笔记资料**
-
-#### **电子书**
-
-#### **课上ppt**
-
-#### **实验相关**
-
-<!-- tabs:end -->
+![](https://gh.hitcs.cc/https://raw.githubusercontent.com/HIT-OpenCS/CS_Courses/main/公共课程/编译系统/file.md ":include")
 
 
