@@ -24,13 +24,13 @@ jobs:
 
     - uses: stefanzweifel/git-auto-commit-action@v5
     #- name: Commit changes
-     # uses: EndBug/add-and-commit@v4
+    #  uses: EndBug/add-and-commit@v4
     #  with:
     #    author_name: GITHUB_GENERATOR
     #    message: "AUTO GENERATE sidebar"
-   #     add: "*.md"
-   #   env:
-   #     GITHUB_TOKEN: ${{ secrets.autosidebar }}
+    #    add: "*.md"
+    #  env:
+    #    GITHUB_TOKEN: ${{ secrets.autosidebar }}
     #    CI: true
           
     # - name: upload   files to OSS
