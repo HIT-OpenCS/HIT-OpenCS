@@ -10,30 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - name: Checkout
+      uses: actions/checkout@v4.1.5
 
-
-    - name: Use Node.js 10.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: 10.x
-
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v4.0.2
 
     - name: do autosidebar
       run: |
        cd ./docs
        node ./auto.js
        ls
-       
-    - name: Commit changes
-      uses: EndBug/add-and-commit@v4
-      with:
-        author_name: GITHUB_GENERATOR
-        message: "AUTO GENERATE sidebar"
-        add: "*.md"
-      env:
-        GITHUB_TOKEN: ${{ secrets.autosidebar }}
-        CI: true
+
+    - uses: stefanzweifel/git-auto-commit-action@v5
+    #- name: Commit changes
+     # uses: EndBug/add-and-commit@v4
+    #  with:
+    #    author_name: GITHUB_GENERATOR
+    #    message: "AUTO GENERATE sidebar"
+   #     add: "*.md"
+   #   env:
+   #     GITHUB_TOKEN: ${{ secrets.autosidebar }}
+    #    CI: true
           
     # - name: upload   files to OSS
     #   uses:   fangbinwei/aliyun-oss-website-action@v1
