@@ -1,4 +1,4 @@
-## GPU计算
+# GPU计算
 
 **课程性质**：专业选修 （2021级-2023秋）
 
@@ -8,10 +8,10 @@
 
 tip：2023秋有4个人拿到了Bonus
 
-### 关于课程
+## 关于课程
 
 
-#### 1. 总体介绍
+### 1. 总体介绍
 
 
  课程大纲有：
@@ -25,7 +25,7 @@ tip：2023秋有4个人拿到了Bonus
   - 昇腾计算语言接口AscendCL
 课程内容有：向量加法运算、矩阵运算、卷积运算、距离计算、算子开发
 
-#### 2. 关于授课
+### 2. 关于授课
 
 - sth
 
@@ -35,7 +35,7 @@ tip：2023秋有4个人拿到了Bonus
  - 会进行实验部分的答疑
 
 
-#### 3. 关于实验
+### 3. 关于实验
 
 有三次作业和一个项目
 
@@ -54,23 +54,23 @@ tip：2023秋有4个人拿到了Bonus
 项目：
 - 学习在线课程，完成章节小测和微认证考试，难度较大
 
-#### 4. 关于考试
+### 4. 关于考试
 
 （2021级-2023秋）
 无考试
 
-### 一些可能有用的资源
+## 一些可能有用的资源
 
 
 - CUDA并行程序设计：https://www.bilibili.com/video/BV15E411x7yT/?vd_source=0f6f2b84c512b24d699dbd30a6844acb
 - NVIDIA CUDA初级教程视频：http://www.iqiyi.com/a_19rrhbvoe9.html#vfrm=2-3-0-1
 - 昇腾社区在线课程：https://www.hiascend.com/zh/ascend-c
 
-### 学习经验
+## 学习经验
 
 课上讲的难，但考察的知识点较为简单，项目的实现有难度
 
-### 参考书目
+## 参考书目
 
 - [1] Duane Storti, Mete Yurtoglu. CUDA for Engineers: An Introduction to High-Performance Parallel Computing ,2016. (中⽂版: 苏统华等译,《CUDA⾼性能并⾏计算》, 机械⼯业出版社, 2017.2)
 - [2] 苏统华, 杜鹏.昇腾AI处理器CANN应⽤与实践,2021.
